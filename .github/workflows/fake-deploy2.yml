@@ -35,9 +35,9 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           
-  deploy2:
-    runs-on: ubuntu-latest
-    environment:
-      name: preprod
-    steps:
-      - run: echo "Do nothing."
+  # deploy2:
+  #   runs-on: ubuntu-latest
+  #   environment:
+  #     name: preprod
+  #   steps:
+  #     - run: echo "Do nothing."
