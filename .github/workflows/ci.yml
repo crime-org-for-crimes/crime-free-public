@@ -5,4 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
-      - run: echo Sup!
+      - name: Run a one-line script
+        run: echo Sup!
